@@ -16,7 +16,9 @@ namespace MSTestMoodAnalyser
         }
         public string analyseMood()
         {
-            if (this.message.Contains("SAD"))
+            if (this.message.Contains("sad"))
+                return "SAD";
+            else if (this.message.Contains("happy"))
                 return "SAD";
             else
                 return "HAPPY";
