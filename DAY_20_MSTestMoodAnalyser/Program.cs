@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DAY_20_MSTestMoodAnalyser
+namespace MSTestMoodAnalyser
 {
     class Program
     {
