@@ -22,7 +22,9 @@ namespace MSTestMoodAnalyser
                 {
                     throw new MoodAnalyserCustomException(MoodAnalyserCustomException.ExceptionType.EMPTY_MESSAGE, "Mood should not be empty");
                 }
-                if (this.message.Contains("SAD"))
+                if (this.message.Contains("sad"))
+                    return "SAD";
+                else if (this.message.Contains("happy"))
                     return "SAD";
                 else
                     return "HAPPY";
